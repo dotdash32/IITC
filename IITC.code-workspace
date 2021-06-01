@@ -2,6 +2,9 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"path": "../../../../Volumes/SKR_14T/0tools"
 		}
 	],
 	"settings": {}
