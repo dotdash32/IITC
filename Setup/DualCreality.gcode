@@ -9,7 +9,7 @@ M218 T0 X0 Y0 Z0 ; reset T0 offset
 M851 Z1.6; probe depth - high force
 
 M218 T1 X38 Y3 ; rough XY offset for T1
-M218 T1 Z0.1 ; Z offset
+M218 T1 Z0.4 ; Z offset
 
 ; From calibration test:
 ; T1 X is .4 too +
@@ -28,7 +28,7 @@ M218 T1 Z0.1 ; Z offset
 
 M218 T1 X37.4 Y3.2 ; fine offset for T1
 
-M281 P0 L108 U60 ; update extruder angles, just in case lol
+M281 P0 L108 U55 ; update extruder angles, just in case lol
 
 
 M117 Dual CR HEs Loaded
