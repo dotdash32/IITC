@@ -9,7 +9,7 @@ M218 T0 X0 Y0 Z0 ; reset T0 offset
 M851 Z1.5; probe depth - high force
 
 M218 T1 X38 Y3 ; rough XY offset for T1
-M218 T1 Z-0.2; Z offset
+M218 T1 Z-0.4; Z offset
 
 ; From calibration test:
 ; T1 X is .4 too +
