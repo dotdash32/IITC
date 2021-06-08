@@ -6,7 +6,7 @@ M206 X-34 Y-12 ; XY offset
 ; M851 X-34 Y-12 ; match probe, no longer needed in M2.0.8.1+
 M218 T0 X0 Y0 Z0 ; reset T0 offset
 
-M851 Z1.5; probe depth - high force
+M851 Z1.35; probe depth - high force
 
 M218 T1 X38 Y3 ; rough XY offset for T1
 M218 T1 Z0.1; Z offset
@@ -30,7 +30,7 @@ M218 T1 Z0.1; Z offset
 
 ; From recalibration test:
 ; T1 X is .2 too -
-; T1 Y is 1.2 too 1
+; T1 Y is 1.2 too +
 
 M218 T1 X37.2 Y2.0 ; fine offset for T1
 
