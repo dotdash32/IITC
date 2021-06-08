@@ -25,7 +25,7 @@ Inter tool changes are between different tool groups.  These are manually facili
 
 ### Remote Tool Changes
 
-A bowden style servo actuates the tilting motion through a wire rope and spring guides.  The mass of the servo is moved to the rigid frame, thus reducing the mass of the toolhead.  This is inspired by the [Jubliee](https://jubilee3d.com/index.php?title=Main_Page), and uses similar parts.  
+A bowden style servo actuates the tilting motion through a wire rope and spring guides.  The mass of the servo is moved to the rigid frame, thus reducing the mass of the toolhead.  This is inspired by the [Jubilee](https://jubilee3d.com/index.php?title=Main_Page), and uses similar parts.  
 
 ### Automatic Z Probing
 
