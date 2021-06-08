@@ -5,6 +5,9 @@ Designed as a mostly printable add-on to the Ender 3 or other V-slot based machi
 
 The IITC is designed to be cheap to make, widely capable, and easily modifyable.  As such, this Github includes the STLs to print the device, as well as the Fusion 360 files used to create them.
 
+
+[![Tech Demo](http://img.youtube.com/vi/5y99OYjvCSE/0.jpg)](http://www.youtube.com/watch?v=5y99OYjvCSE)
+
 ## Current Progress
 
 The files are currently in development!  While everything *mostly* works on my machine, there are printablity and longevity improvmments going on.  See the Projects page for a more up to date version of current progress.
