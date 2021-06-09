@@ -6,7 +6,7 @@ Caveats:
 
 For this reason, the standard position is `T0` as Xmin and Ymin tool. This moves the tool out of the way of Xmin (on an i3 bedslinger) during homing, but this might change depending on your machine.  Change your servo positions to correct this and chooser a `T0` that does not interfere with endstops triggering.
 
-`T1`, `T2`, and `Tn` are subsequent tools, up until `n=8`, the maximum number supported in Marlin.  The IITC supports 1, 2, or 4 (coming soon) tools, but the `Tn` nomenclature is used to generalize the proceedure.
+`T1`, `T2`, and `Tn` are subsequent tools, up until `n=6`, the maximum number supported in Marlin.  The IITC supports 1, 2, or 4 (coming soon) tools, but the `Tn` nomenclature is used to generalize the proceedure.
 
 ## Useful Commands
 
