@@ -2,17 +2,19 @@
 
 Caveats: 
 
-`T0`, the original tool, often called Extruder 1 in firmware, is active when homing.  This means that it's "deployed" position cannot interfere with X/Y endstops, and it must be the highest triggering tool.
+`T0`, the original tool, often called Extruder 1 in firmware, is active when homing.  This means that it's "deployed" position cannot interfere with X/Y endstops.
 
-For this reason, the standard position is `T0` as Xmin and Ymin tool. 
+For this reason, the standard position is `T0` as Xmin and Ymin tool. This moves the tool out of the way of Xmin (on an i3 bedslinger) during homing, but this might change depending on your machine.  Change your servo positions to correct this and chooser a `T0` that does not interfere with endstops triggering.
+
+`T1`, `T2`, and `Tn` are subsequent tools, up until `n=8`, the maximum number supported in Marlin.  The IITC supports 1, 2, or 4 (coming soon) tools, but the `Tn` nomenclature is used to generalize the proceedure.
 
 ## Useful Commands
 
-`M206` Home offset
+- `M206` Home offset
 
-`M218` Tool offset
+- `M218` Tool offset
 
-`M851` Probe Offset
+- `M851` Probe Offset
 
 ## Find X/Y of First Tool
 
@@ -28,15 +30,13 @@ For this reason, the standard position is `T0` as Xmin and Ymin tool.
 
 	- If tool cannot reach X0 Y0, use an offset guide to find the “theoretical limits”.  Soft endstops should still respect the physical limits of your machine.
 
-4. Set this same Position as XY Probe offset in `M851`
+	- Set this same Position as XY Probe offset in `M851` if using Marlin 2.0.8.0 or lower
 
-	- this doesn't need to do be done in Marlin 2.0.8.1+!!
-
-5. Ensure the machine now homes Z in proper location
+4. Ensure the machine now homes Z in proper location
 
 	- If `Z_SAFE_HOMING` is enabled, should be in true center of bed
 
-6. Check that the Soft Limits are correct with `M211`
+5. Check that the Soft Limits are correct with `M211`
 
 	- Also good to jog to limits and make sure you cannot over travel!
 
@@ -75,13 +75,13 @@ For the purposes of `Z_SAFE_HOMING` and probe sensitivity, I find it useful to r
 
 	- Soft powder is useful, get any sort of indent.  You can also reform it to restart the process
 
-3. Switch to Tool x (ie `T1` or `Tx`)
+3. Switch to Tool x (ie `T1` or `Tn`)
 
 	- Be sure there is enough Z clearance before you change tools!  Consider bring `T0` up ~5mm.
 
 4. Jog to the approximate location
 
-5. Record the difference in initial position and final position in `M218 Tx X Y`
+5. Record the difference in initial position and final position in `M218 Tn X Y`
 
 	- `M114` recalls position
 
@@ -113,7 +113,7 @@ CAVEAT: `T1` must be LOWER than `T0` for this to work.  The first Tool must be t
 
 	- Use a piece of paper or shim stock for this, like in First Tool Z offsetting
 
-5. Take the negative of this to use for `M218 Tx Z`
+5. Take the negative of this to use for `M218 Tn Z`
 
 	- Easiest way to check the offset is to remember the number, switch back to `T0`, then apply new offset.  When switching back to `T1`, the offset will be applied and `T0` shouldn't slam into the bed.
 
