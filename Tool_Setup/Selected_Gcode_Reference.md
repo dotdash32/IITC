@@ -1,6 +1,6 @@
-# Selected Gcode Reference
+# Selected GCode Reference
 
-A few Gcodes that are relevant for setting up different hotends and extruders.  You should always check your Firmware reference ([Marlin](https://marlinfw.org/meta/gcode/), [RRF](https://duet3d.dozuki.com/Wiki/Gcode), [Klipper](https://www.klipper3d.org/G-Codes.html)), but this guide is mainly written for Marlin users.  Tools can be referenced by running subprograms (detailed in the parent [readme](/Tool_Setup/readme.md)), overwriting the base configuration.  Since RRF and Klipper support modular config files, it might make more sense to just edit the config file and restart the printer.
+A few GCodes that are relevant for setting up different hot ends and extruders.  You should always check your Firmware reference ([Marlin](https://marlinfw.org/meta/gcode/), [RRF](https://duet3d.dozuki.com/Wiki/Gcode), [Klipper](https://www.klipper3d.org/G-Codes.html)), but this guide is mainly written for Marlin users.  Tools can be referenced by running subprograms (detailed in the parent [readme](/Tool_Setup/readme.md)), overwriting the base configuration.  Since RRF and Klipper support modular config files, it might make more sense to just edit the config file and restart the printer.
 
 These are just a few settings, and this is not a comprehensive guide.  It can serve as a checklist of things to ensure you have all the necessary parameters changed for a new tool, but you should always consult the documentation to understand the command.  This is just a starting point!
 
@@ -21,8 +21,8 @@ These are just a few settings, and this is not a comprehensive guide.  It can se
 
 - `M92` Set steps per unit (`Tn Exxx`)
 - `M201` Set max acceleration (`Tn Exxx`)
-- `M203` Set max feedrate (`Tn Exxx`)
-- `M301` Set hotend PID (`En Pnnn Innn Dnnn` {`Tn` => `En`})
+- `M203` Set max feed rate (`Tn Exxx`)
+- `M301` Set hot end PID (`En Pnnn Innn Dnnn` {`Tn` => `En`})
 - `M305` Set Custom Thermistor Parameters (`Pn Bnnn Rnnn Tnnn` {`Tn` => `Pn`})
 
 

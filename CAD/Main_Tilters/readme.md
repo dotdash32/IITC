@@ -18,7 +18,7 @@ Two options, depending on which side of the tool should be used.
 This enables a simpler machine to still run complex tool groups, just one tool at a time.
 
 - 1x `1_Pos_Main_XXX`
-    - `_Right` is the near-stock hotend configuration for the Ender 3
+    - `_Right` is the near-stock hot end configuration for the Ender 3
     - `_Left` is the `T0` position for the 2 position holder.
 
 Update: now easier to print!  Sections extend from the side plates downward, removing the need for supports.

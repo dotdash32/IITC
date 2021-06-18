@@ -1,12 +1,12 @@
-# Tool setup Proceedure:
+# Tool setup Procedure:
 
 Caveats: 
 
-`T0`, the original tool, often called Extruder 1 in firmware, is active when homing.  This means that it's "deployed" position cannot interfere with X/Y endstops.
+`T0`, the original tool, often called Extruder 1 in firmware, is active when homing.  This means that it's "deployed" position cannot interfere with X/Y end stops.
 
-For this reason, the standard position is `T0` as Xmin and Ymin tool. This moves the tool out of the way of Xmin (on an i3 bedslinger) during homing, but this might change depending on your machine.  Change your servo positions to correct this and chooser a `T0` that does not interfere with endstops triggering.
+For this reason, the standard position is `T0` as X_MIN and Y_MIN tool. This moves the tool out of the way of X_MIN (on an i3 bed slinger) during homing, but this might change depending on your machine.  Change your servo positions to correct this and chooser a `T0` that does not interfere with end stops triggering.
 
-`T1`, `T2`, and `Tn` are subsequent tools, up until `n=6`, the maximum number supported in Marlin.  The IITC supports 1, 2, or 4 (coming soon) tools, but the `Tn` nomenclature is used to generalize the proceedure.
+`T1`, `T2`, and `Tn` are subsequent tools, up until `n=6`, the maximum number supported in Marlin.  The IITC supports 1, 2, or 4 (coming soon) tools, but the `Tn` nomenclature is used to generalize the procedure.
 
 ## Useful Commands
 
@@ -28,7 +28,7 @@ For this reason, the standard position is `T0` as Xmin and Ymin tool. This moves
 
 	- Usually need to invert the signs
 
-	- If tool cannot reach X0 Y0, use an offset guide to find the “theoretical limits”.  Soft endstops should still respect the physical limits of your machine.
+	- If tool cannot reach X0 Y0, use an offset guide to find the “theoretical limits”.  Soft end stops should still respect the physical limits of your machine.
 
 	- Set this same Position as XY Probe offset in `M851` if using Marlin 2.0.8.0 or lower
 
@@ -63,7 +63,7 @@ For the purposes of `Z_SAFE_HOMING` and probe sensitivity, I find it useful to r
 
 1. Move to a clean section of the bed that is sufficiently rigid
 
-	- Single rail Vslots can be wobbly at the edges, better to move towards the center.
+	- Single rail V slots can be wobbly at the edges, better to move towards the center.
 
 	- Using a round position (ie `X100 Y100`) will make this easier later
 
@@ -71,7 +71,7 @@ For the purposes of `Z_SAFE_HOMING` and probe sensitivity, I find it useful to r
 
 	- for pen tools, a little dot is easy
 
-	- For hotends, paper and a little indent also works well
+	- For hot ends, paper and a little indent also works well
 
 	- Soft powder is useful, get any sort of indent.  You can also reform it to restart the process
 
@@ -95,7 +95,7 @@ For the purposes of `Z_SAFE_HOMING` and probe sensitivity, I find it useful to r
 
 		- This can be mitigated with by switching to `T0` then applying the offset, but it's easier to just re-home between switches
 
-7. Repeat until you are satisifed with the rough offset.  This is rough, it just needs to be close, we'll fine tune it later.
+7. Repeat until you are satisfied with the rough offset.  This is rough, it just needs to be close, we'll fine tune it later.
 
 ## Find Z offsets of Subsequent Tools
 
