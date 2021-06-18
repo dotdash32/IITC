@@ -7,7 +7,6 @@ The computer these were designed on is 6 years old and can't handle very large f
 Each folder contains approximately one assembly with the structure:
 
 ```
-.
 +-- Assembly_Name_1
 |   +-- 0Assembly_Name_1.f3d
 |   +-- STL_File1.stl
