@@ -36,6 +36,14 @@ M218 T1 X37.2 Y2.0 ; fine offset for T1
 
 M281 P0 L145 U40 ; update extruder angles, just in case lol
 
+;;; Hotend settings ;;;
+;Thermistor Settings
+M305 P0 R4700 T100000 B3950 C0 ; Extruder 1
+M305 P1 R4700 T100000 B3950 C0 ; Exutruder 2
+
+;PID Settings
+M301 E0 P24.67 I2.19 D69.45 ; Extruder 1
+M301 E1 P26.54 I2.22 D79.31 ; Extruder 2
 
 M117 Dual CR HEs Loaded
 M150 U255 B255 ; color indicator!
