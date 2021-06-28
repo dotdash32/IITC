@@ -14,7 +14,7 @@ The files are currently in development!  While everything *mostly* works on my m
 
 
 ## Features
-While none of these ideas are completely novel, the combination of the three creates a new and very capable machine.
+While none of these ideas are completely novel, the combination of these creates a new and very capable machine.
 
 ### Intra- Tool Changes
 
@@ -25,6 +25,10 @@ It rides on bearings for smooth operation and longevity of printed parts.  It us
 ### Inter- Tool Changes
 
 Inter tool changes are between different tool groups.  These are manually facilitated, allowing the machine to change between different types of tools.  Switching out symmetric nozzles for a dedicated flexible hot end, or mounting a laser engraver or pen plotter.  This is similar to the [XChange](https://www.kickstarter.com/projects/printermods/xchange-v10-hot-swap-tool-changing-for-every-3d-printer) or [Mutant](https://whambamsystems.com/mutant).  However, this combines with the Intra switches to have a more capable machine.
+
+### Tool Ecosystem
+
+The kinematic mount and angle are the same between 1, 2, and 4 position mounts.  Tool groups can still be used on mounts with fewer or more positions, so tool groups are compatible between machines even if they have different numbers of extruders enabled.  This is intended so that a shop with mulitple printers can expand flexible capacity without needing to upgrade every mainboard to dual extrusion.
 
 ### Remote Tool Changes
 
