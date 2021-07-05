@@ -1,6 +1,12 @@
 # Single Hero Me
 
-Single extruder mount for Creality Mk8 hot end
+Adapted Hero Me V3 mount to mount a single Creality MK8 hot-end to the Kinematic Mount.
+
+![Single Hero Me](/images/Single_Hero_Me.png)
+
+
+
+### Needed Materials
 
 - 1x`Hotend_Mount`
 - 1x `Kinematic_Mount`
@@ -19,3 +25,5 @@ Single extruder mount for Creality Mk8 hot end
 ## Hot End Modifications
 
 To have quick change-ability for PTFE lined hot ends, it is recommended to do the "washer fix" that adds a section of captive PTFE tube inside the hot end, trapped below a washer.  This allows the Bowden tube above the washer to be easily removed without worrying about perfectly re-seating the tube after an Inter tool change.
+
+Originally by Luke Hatfield, [CHEP has a video](https://www.youtube.com/watch?v=7tCxO17XZtw) about it, and you can find the necessary files on [Thingiverse](https://www.thingiverse.com/thing:3203831).  The fix can also improve printing overall, so its recommended to do.
