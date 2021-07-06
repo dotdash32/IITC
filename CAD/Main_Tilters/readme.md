@@ -20,9 +20,9 @@ This tilter doesn't move, but gives any printer Inter-changes and automatic prob
 Two options, depending on which side of the tool should be used.
 This enables a simpler machine to still run complex tool groups, just one tool at a time.
 
-![1 Pos Right](/images/1_Pos_Right.png ) ![1 Pos Left](/images/1_Pos_Left.png)
+<!-- ![1 Pos Right](/images/1_Pos_Right.png){:width="10px"} ![1 Pos Left](/images/1_Pos_Left.png) -->
 
-<!-- <img src="/images/1_Pos_Right.png" width="100"/> -->
+![<img src="/images/1_Pos_Right.png" width="300"/>](/images/1_Pos_Right.png)
 
 ### 1 Pos Needed Materials
 
