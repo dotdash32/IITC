@@ -17,6 +17,8 @@ This tilter doesn't move, but gives any printer Inter-changes and automatic prob
 Two options, depending on which side of the tool should be used.
 This enables a simpler machine to still run complex tool groups, just one tool at a time.
 
+![1 Pos Right](/images/1_Pos_Right.png) ![1 Pos Left](/images/1_Pos_Left.png)
+
 ### 1 Pos Needed Materials
 
 - 1x `1_Pos_Main_XXX`
@@ -28,6 +30,8 @@ Update: now easier to print!  Sections extend from the side plates downward, rem
 ## 2 Position Tilter
 
 This is the mainstay of the project, 2 tools per tool group for intra-switches.
+
+![2 Pos Tilter](/images/2_Pos_Tilter.png)
 
 ### 2 Pos Needed Materials
 
@@ -47,6 +51,8 @@ It does not currently have provisions for a tilting cable, but that will hopeful
 
 This enables front and back tilting as well, so 2 Position Tool Groups will work natively as well. 
 The issue is that it extends back and would collide with the vertical 2040 beams on the Ender 3.
+
+![4 Pos Tilter](/images/4_Pos_Tilter.png)
 
 ### 4 Pos Needed materials
 
