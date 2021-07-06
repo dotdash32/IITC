@@ -4,7 +4,7 @@ Dual Extruder mount for 2 Creality MK8 Style hot ends
 
 ![Double_Hero_Me](/images/Double_Hero_Me.png)
 
-## Needed Materials
+### Needed Materials
 
 - 1x `Hotend_Mount`
 - 1x`Top_Hat`

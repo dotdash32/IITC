@@ -2,10 +2,10 @@
 
 Colloquially called the "Spool Whale" because of the whale tail like design, a purpose built dual spool holder with provisions for in line filament runout sensors and dual Creality style extruders
 
-## Needed Materials
+### Needed Materials
 
 - `Bottom_Board_Small` (dxf to be laser cut)
-    - printable STL Coming Soon^(tm)
+    - printable STL Coming Soon
 - `Spool_Whale_Lower`
 - `Spool_Whale_Upper`
 - 2x 12mm M5 SHCS
@@ -18,6 +18,8 @@ Colloquially called the "Spool Whale" because of the whale tail like design, a p
 ## Optional Filament Runout Sensors
 
 This is for one sensor, so for two, double everything.
+
+### Needed materials
 
 - `Fil_Runout_Bottom`
 - `Fil_Runout_Top`

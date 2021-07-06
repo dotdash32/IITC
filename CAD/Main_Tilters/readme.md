@@ -3,7 +3,7 @@
 The main bulk of the project is here, these are what do the dirty work.
 There are 3 possible combinations, and each need slightly different materials.
 
-## Common Parts
+### Common Needed Materials
 
 The topmost section is common to all tilters, so any set of tools can be attached to any tilter.
 
@@ -17,6 +17,8 @@ This tilter doesn't move, but gives any printer Inter-changes and automatic prob
 Two options, depending on which side of the tool should be used.
 This enables a simpler machine to still run complex tool groups, just one tool at a time.
 
+### 1 Pos Needed Materials
+
 - 1x `1_Pos_Main_XXX`
     - `_Right` is the near-stock hot end configuration for the Ender 3
     - `_Left` is the `T0` position for the 2 position holder.
@@ -26,6 +28,8 @@ Update: now easier to print!  Sections extend from the side plates downward, rem
 ## 2 Position Tilter
 
 This is the mainstay of the project, 2 tools per tool group for intra-switches.
+
+### 2 Pos Needed Materials
 
 * 1x `2_Pos_Main`
 * 1x `Stationary_Mount`
@@ -43,6 +47,8 @@ It does not currently have provisions for a tilting cable, but that will hopeful
 
 This enables front and back tilting as well, so 2 Position Tool Groups will work natively as well. 
 The issue is that it extends back and would collide with the vertical 2040 beams on the Ender 3.
+
+### 4 Pos Needed materials
 
 * 1x `4_Pos_Lower`
 * 1x `4_Pos_Upper`
