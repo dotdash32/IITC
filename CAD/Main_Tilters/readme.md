@@ -22,7 +22,7 @@ This enables a simpler machine to still run complex tool groups, just one tool a
 
 <!-- ![1 Pos Right](/images/1_Pos_Right.png){:width="10px"} ![1 Pos Left](/images/1_Pos_Left.png) -->
 
-![<img src="/images/1_Pos_Right.png" width="300"/>](/images/1_Pos_Right.png)
+![<img src="/images/1_Pos_Right.png" width="150"/>](/images/1_Pos_Right.png)
 ![<img src="images/1_Pos_Left.png" width="300"/>](/images/1_Pos_Left.png)
 
 ### 1 Pos Needed Materials
