@@ -17,7 +17,9 @@ This tilter doesn't move, but gives any printer Inter-changes and automatic prob
 Two options, depending on which side of the tool should be used.
 This enables a simpler machine to still run complex tool groups, just one tool at a time.
 
-![1 Pos Right](/images/1_Pos_Right.png) ![1 Pos Left](/images/1_Pos_Left.png)
+<!-- ![1 Pos Right](/images/1_Pos_Right.png ) ![1 Pos Left](/images/1_Pos_Left.png) -->
+
+<img src="/image/1_Pos_Right.png" width="100"/>
 
 ### 1 Pos Needed Materials
 
@@ -31,7 +33,7 @@ Update: now easier to print!  Sections extend from the side plates downward, rem
 
 This is the mainstay of the project, 2 tools per tool group for intra-switches.
 
-![2 Pos Tilter](/images/2_Pos_Tilter.png)
+![2 Pos Tilter](/images/2_Pos_Tilter.png | width=100)
 
 ### 2 Pos Needed Materials
 
