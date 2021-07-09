@@ -3,6 +3,16 @@
 STLs for Remote tilter, uses a servo to actuate the tool change.
 Mounts to Nema-17 standard pattern (i.e. to default E3 extruder position)
 
+## 35kg Servo
+
+The current model uses a 35kg-cm servo, which is definitely over powered for the application.  
+This is to avoid overheating and failure that was observed in [TeachingTech's Switching Nozzle Video](https://www.youtube.com/watch?v=ag7b9jOhlPY).
+
+![Remote Tilter](/images/Remote_Tilter.png)
+
+Future upgrades include testing to switch to a 20kg-cm servo which is half the price, or using a stalled DC motor with current limiting.
+Other heat mitigation strategies include a 30mm fan, which has an included duct to redirect the air closely around the servo, or spare stepper motor heat sinks on the metal casing.
+
 ### Needed Materials
 
 TODO: update this in main assembly file.
@@ -28,4 +38,3 @@ Needs either high precision, or to melt the teeth profile in.
 To melt, something like acrylic cement (for PLA, not recommended plastic) can be used.
 Apply the cement liberally to the point of indentation, and then press onto the servo gear.
 Let it set until dry, and you have a nice set of embedded teeth!
-
