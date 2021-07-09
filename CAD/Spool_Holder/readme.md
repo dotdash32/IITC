@@ -1,11 +1,19 @@
 # Spool Holder
 
-Colloquially called the "Spool Whale" because of the whale tail like design, a purpose built dual spool holder with provisions for in line filament runout sensors and dual Creality style extruders
+Colloquially called the "Spool Whale" because of the whale tail like design, a purpose built dual spool holder with provisions for in line filament runout sensors and dual Creality style extruders.
+
+![Spool Whale](/images/Spool_Whale.png)
+
+## Base Holder
+
+Simple holder, includes two extruder mounts (Creality MK10 style) and dual roll filament holder.
+
+This also adopts the PTFE liner from Voron, so that spools are not in contact with printed plastic, but instead slippery PTFE during printing.
 
 ### Needed Materials
 
 - `Bottom_Board_Small` (dxf to be laser cut)
-    - printable STL Coming Soon
+  - printable STL Coming Soon
 - `Spool_Whale_Lower`
 - `Spool_Whale_Upper`
 - 2x 12mm M5 SHCS
