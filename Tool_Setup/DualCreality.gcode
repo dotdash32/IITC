@@ -17,11 +17,12 @@ M301 E1 P26.54 I2.22 D79.31 ; Extruder 2
 M206 X-34 Y-12 ; XY offset
 ; M851 X-34 Y-12 ; match probe, no longer needed in M2.0.8.1+
 
+; Probe Z offset
+M851 Z0.50
 
-M851 Z0.50; probe depth - high force
-
-M218 T1 X38 Y3 ; rough XY offset for T1
-M218 T1 Z0.1; Z offset
+; Rough T1 Offset
+M218 T1 X38 Y3 ; rough XY
+M218 T1 Z0.1 ; Z offset
 
 ; From calibration test:
 ; T1 X is .4 too +
@@ -46,6 +47,7 @@ M218 T1 Z0.1; Z offset
 
 M218 T1 X37.2 Y2.0 ; fine offset for T1
 
+M500 ; save settings
 M117 Dual CR HEs Loaded
 M150 U255 B255 ; color indicator!
 G4 P500 ; wait a half second for light
