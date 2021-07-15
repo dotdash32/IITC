@@ -57,7 +57,7 @@ Using the [FileSync](https://marketplace.visualstudio.com/items?itemName=CatStar
     },
     ```
 
-3. Edit the VScode `settings.json` file to meet the Source/Destination specs of the Extensions
+3. Edit the VSCode `settings.json` file to meet the Source/Destination specs of the Extensions
 
     - for example:
 
@@ -68,4 +68,4 @@ Using the [FileSync](https://marketplace.visualstudio.com/items?itemName=CatStar
     ],
     ```
 
-4. Double check everything is working by looking at the FileSync output from the VSCode termainl
+4. Double check everything is working by looking at the FileSync output from the VSCode terminal

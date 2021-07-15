@@ -25,8 +25,6 @@ These are just a few settings, and this is not a comprehensive guide.  It can se
 - `M301` Set hot end PID (`En Pnnn Innn Dnnn` {`Tn` => `En`})
 - `M305` Set Custom Thermistor Parameters (`Pn Bnnn Rnnn Tnnn` {`Tn` => `Pn`})
 
-
-
 ## Communication
 
 - `M117` Display a message on LCD
