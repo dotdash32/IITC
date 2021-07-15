@@ -3,7 +3,7 @@
 ; M32 P !/0TOOLS/DUALCR~1.GCO#
 
 ;update Extruder angles
-M281 P0 L115 U60
+M281 P0 L115 U60  
 
 ;Thermistor Settings
 M305 P0 R4700 T100000 B4092 C0 ; Extruder 1
@@ -22,18 +22,10 @@ M851 Z0.300
 
 ; Rough T1 Offset
 M218 T1 X38 Y3 ; rough XY
-M218 T1 Z-0.55 ; Z offset ; +.5->-0.45 whoo
+M218 T1 Z0.30 ; Z offset ; +.3->+0.6
 
-; From calibration test:
-; T1 X is .4 too +
-; T1 Y is .4 too -
-; M218 T1 X38.2 Y2.6 ; fine offset for T1
-
-; From recalibration test:
-; T1 X is .6 too -
-; T1 Y is .2 too +
-
-;M218 T1 X37.6 Y2.0 ; fine offset for T1
+; Old offset
+; M218 T1 X37.6 Y2.0 ; fine offset for T1
 
 ; From recalibration test:
 ; T1 X is .2 too -
@@ -46,6 +38,12 @@ M218 T1 Z-0.55 ; Z offset ; +.5->-0.45 whoo
 ; T1 Y is 1.2 too +
 
 M218 T1 X37.2 Y2.0 ; fine offset for T1
+
+; From recalibration test:
+; T1 X is 1.4 too +
+; T1 Y is 0.6 too -
+
+M218 T1 X38.6 Y1.4
 
 M500 ; save settings
 M117 Dual CR HEs Loaded
