@@ -14,15 +14,15 @@ M301 E0 P24.67 I2.19 D69.45 ; Extruder 1
 M301 E1 P26.54 I2.22 D79.31 ; Extruder 2
 
 ; Home offsets
-M206 X-34 Y-12 ; XY offset
+M206 X-34 Y-17 ; XY offset
 ; M851 X-34 Y-12 ; match probe, no longer needed in M2.0.8.1+
 
 ; Probe Z offset
-M851 Z0.50
+M851 Z0.300
 
 ; Rough T1 Offset
 M218 T1 X38 Y3 ; rough XY
-M218 T1 Z0.1 ; Z offset
+M218 T1 Z-0.55 ; Z offset ; +.5->-0.45 whoo
 
 ; From calibration test:
 ; T1 X is .4 too +
