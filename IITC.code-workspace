@@ -5,6 +5,9 @@
 		},
 		{
 			"path": "../../../../../Volumes/SKR_14T/0tools"
+		},
+		{
+			"path": "./Tool_Setup/Tool_Files"
 		}
 	],
 	"settings": {}
