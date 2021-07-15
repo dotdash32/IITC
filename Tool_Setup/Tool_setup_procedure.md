@@ -6,6 +6,10 @@ Caveats:
 
 For this reason, the standard position is `T0` as X_MIN and Y_MIN tool. This moves the tool out of the way of X_MIN (on an i3 bed slinger) during homing, but this might change depending on your machine.  Change your servo positions to correct this and chooser a `T0` that does not interfere with end stops triggering.  The Slim_X_Stop also helps with this problem (on an Ender 3).
 
+Another element for standardization is software ordering.  Since most of the software for 3D printing (that I've seen at least) uses a writing system that goes left to right, `T0` is always on the left.  Thus, when looking at a printer head on, the first tool should follow this format.  From a UX perspective, this means that the tools will respect Marlin's Heater ordering, and Cura's Extruder ordering.
+
+A caveat to using this convention and also supporting 1 Position base mounts is that the most "exotic" or unusual extruder should be placed such that when using a single tool machine, it can be used.  For example, on a machine with a standard flow and high flow nozzle, the high flow should be in position 2 (`T1`), such that when placed on a non-inter-switching machine, that nozzle can be used more readily.
+
 `T1`, `T2`, and `Tn` are subsequent tools, up until `n=6`, the maximum number supported in Marlin.  The IITC supports 1, 2, or 4 (coming soon) tools, but the `Tn` nomenclature is used to generalize the procedure.
 
 ## Useful Commands
