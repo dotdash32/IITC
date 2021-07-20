@@ -18,11 +18,11 @@ M206 X-34 Y-17 ; XY offset
 ; M851 X-34 Y-12 ; match probe, no longer needed in M2.0.8.1+
 
 ; Probe Z offset
-M851 Z0.300
+M851 Z0.250 ; 0.250
 
 ; Rough T1 Offset
 M218 T1 X38 Y3 ; rough XY
-M218 T1 Z0.30 ; Z offset ; +.3->+0.6
+M218 T1 Z0.30 ; Z offset ; +.3->+0.150
 
 ; Old offset
 ; M218 T1 X37.6 Y2.0 ; fine offset for T1
@@ -40,10 +40,10 @@ M218 T1 Z0.30 ; Z offset ; +.3->+0.6
 M218 T1 X37.2 Y2.0 ; fine offset for T1
 
 ; From recalibration test:
-; T1 X is 1.4 too +
+; T1 X is 1.6 too +
 ; T1 Y is 0.6 too -
 
-M218 T1 X38.6 Y1.4
+M218 T1 X38.800 Y1.4
 
 M500 ; save settings
 M117 Dual CR HEs Loaded
