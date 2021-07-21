@@ -22,8 +22,8 @@ This enables a simpler machine to still run complex tool groups, just one tool a
 
 <!-- ![1 Pos Right](/images/1_Pos_Right.png){:width="10px"} ![1 Pos Left](/images/1_Pos_Left.png) -->
 
-![<img src="/images/1_Pos_Right.png" width="200"/>](/images/1_Pos_Right.png)
-![<img src="images/1_Pos_Left.png" width="200"/>](/images/1_Pos_Left.png)
+![1_Pos_Right](/images/1_Pos_Right.png)
+![1_Pos_Left](/images/1_Pos_Left.png)
 
 ### 1 Pos Needed Materials
 
@@ -31,7 +31,7 @@ This enables a simpler machine to still run complex tool groups, just one tool a
   * `_Right` is the near-stock hot end configuration for the Ender 3
   * `_Left` is the `T0` position for the 2 position holder.
 
-Update: now easier to print!  Sections extend from the side plates downward, removing the need for supports.
+Why are there those weird side sections? They extend from the largest flat plane downward, removing the need for supports.
 
 ## 2 Position Tilter
 
@@ -44,7 +44,7 @@ This is the mainstay of the project, 2 tools per tool group for intra-switches.
 * 1x `2_Pos_Main`
 * 1x `Stationary_Mount`
 * 1x `Bearing_Internal_Spacer`
-* 1x 20mm M5 SHCS
+* 1x 25mm M5 FHS
 * 2x 105zz Bearings
 * 1x Nylock M5 Nut
 * 1x 5mm M3 SHCS
@@ -66,7 +66,8 @@ The issue is that it extends back and would collide with the vertical 2040 beams
 * 1x `4_Pos_Upper`
 * 1x `Stationary_Mount`
 * 2x `Bearing_Internal_Spacer`
-* 2x 20mm M5 SHCS
+* 1x 25mm M5 FHS
+* 1x 20mm M5 SHCS
 * 4x 105zz Bearings
 * 2x Nylock M5 Nut
-* 1x 5mm M3 SHCS (subject to change)
+* 1x 5mm M3 SHCS (will probably become 2)
