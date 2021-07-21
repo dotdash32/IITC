@@ -4,11 +4,15 @@ Dual Extruder mount for 2 Creality MK8 Style hot ends
 
 ![Double_Hero_Me](/images/Double_Hero_Me.png)
 
+## Caveats
+
+This is sort of a legacy tool group, stitched together quickly for expedited testing.  It absolutely works, but most things are at slight angles, and the hot end mount on the right isn't the same length to the D-sub connector.  It is harder to print (support needed), and the fans are not optimized.
+
 ### Needed Materials
 
 - 1x `Hotend_Mount`
 - 1x`Top_Hat`
-- 2x Creality MK8 Hot ends 
+- 2x Creality MK8 Hot ends
 - 2x 40mm Fan
 - 2x Bowden tubes
 - 1x `Dsub_Cap_left`
@@ -17,7 +21,7 @@ Dual Extruder mount for 2 Creality MK8 Style hot ends
 - 1x `Fan_Duct`
 - 2x 4010 Blower fans (part cooling)
 - 4x 8mm M3 SHCS
-- 3x 5mm M3 SHCS 
+- 3x 5mm M3 SHCS
 - 4x 16mm M3 SHCS
 - 7x Thin M3 nuts
 

@@ -4,13 +4,15 @@ Adapted Hero Me V3 mount to mount a single Creality MK8 hot-end to the Kinematic
 
 ![Single Hero Me](/images/Single_Hero_Me.png)
 
+## Caveats
 
+This is not optimized for support-less printing, like the main Hero Me.  
 
 ### Needed Materials
 
 - 1x`Hotend_Mount`
 - 1x `Kinematic_Mount`
-- 1x Creality MK8 Hot ends 
+- 1x Creality MK8 Hot ends
 - 1x 40mm Fan (hot end cooling)
 - 1x Bowden tubes
 - 1x `Dsub_Cap`
@@ -18,7 +20,7 @@ Adapted Hero Me V3 mount to mount a single Creality MK8 hot-end to the Kinematic
 - 1x `Symmetric_Duct`
 - 1x 4010 Blower fans (part cooling)
 - 3x 8mm M3 SHCS
-- 3x 5mm M3 SHCS 
+- 3x 5mm M3 SHCS
 - 2x 16mm M3 SHCS
 - 6x Thin M3 nuts
 
