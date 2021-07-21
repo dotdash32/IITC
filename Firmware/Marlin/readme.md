@@ -51,7 +51,7 @@ Marlin currently only supports up to 2 Positions, since the main element (`SWITC
 
   - `#define Z_SAFE_HOMING` Required for homing with a probe
 
-- SD Card 
+- SD Card
 
   - `#define SDSUPPORT` Use an SD card to store tool offset GCode files
 
