@@ -14,7 +14,3 @@ Mount for 5mm borescope with cable management options at the top.  Mounts to sid
 - 2x 12mm M3 SHCS
 - 2x M3 nuts
 - 2x 8mm M3 SHCS (for mounting to SM)
-
-
-
-

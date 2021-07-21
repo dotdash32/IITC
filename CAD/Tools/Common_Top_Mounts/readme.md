@@ -2,14 +2,13 @@
 
 Common tools to mount a tool group to the base pivot.  These usually hold springs to allow for auto Z probing.
 
-
 ## Triple Springs Static
 
 Adapter to use 3 McMaster #9657K622 springs for a heavier tool.
 
 ![Triple Springs Static](/images/Triple_Springs_Static.png)
 
-### Needed Materials
+### Needed Materials (Static)
 
 - 1x `Triple_Springs_Static`
 - 3x .375x.300 springs (McMaster #9657K622)
@@ -24,7 +23,7 @@ Adapter to use 3 McMaster #9657K622 springs for a heavier tool, but allow uneven
 
 Primary tension is adjustable with the main screw, tightening the back two springs.  Front tension is adjustable with separate jam nuts.
 
-### Needed Materials
+### Needed Materials (Adjustable)
 
 - 1x `Triple_Springs_Adjustable`
 - 3x .375x.300 springs (McMaster #9657K622)
