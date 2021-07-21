@@ -49,6 +49,10 @@ This is the mainstay of the project, 2 tools per tool group for intra-switches.
 * 1x Nylock M5 Nut
 * 1x 5mm M3 SHCS
 
+### 2 Pos Optional Back Brace
+
+An experimental feature, add 1x `2_Pos_Back_Brace` to potentially stiffen the tilting mechanism.  This is being tested, but requires support and hasn't shown a significant difference in performance yet.
+
 ## 4 Position Tilter
 
 This is not finished!
