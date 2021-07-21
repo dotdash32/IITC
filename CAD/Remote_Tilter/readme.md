@@ -15,25 +15,31 @@ Other heat mitigation strategies include a 30mm fan, which has an included duct 
 
 ### Needed Materials
 
-TODO: update this in main assembly file.
+<!-- TODO: update this in main assembly file. -->
 
-* `Servo_mount`
-* `Horn_Top_Attachment`
-* `30mm_Fan_Mount` OR `Fanless_Nut_Keeper`
-* 1 12mm M3 SHCS
-* 5 8mm M3 SHCS
-* 4 Thin M3 Nuts
-* 4 16mm M4 SHCS
-* 4 Std M4 Nuts
-* Standard Size RC Servo (tested with Annimos 35kg)
-* JST to Servo connection Cable
-* Spring Guides (from main assembly)
+* 1x `Servo_mount`
+* 1x `Horn_Top_Attachment`
+* Nut mount system
+  * 1x `Fanless_Nut_Keeper`
+
+  OR
+  * 1x `30mm_Fan_Mount`
+  * 1x3010 Fan
+* 1x 12mm M3 SHCS
+* 5x 8mm M3 SHCS
+* 4x Thin M3 Nuts
+* 4x 16mm M4 SHCS
+* 4x Std M4 Nuts
+* 1x Standard Size RC Servo (tested with Annimos 35kg)
+* 1x JST to Servo connection Cable
+* 2x Spring Guides (from main assembly)
 
 ## Direct without Horn
 
 An old version of the servo mount.
 It mounts directly to the 25 tooth servo gear, hence the "Direct" name.
 Needs either high precision, or to melt the teeth profile in.
+This model is harder to work with, so is not fully supported, and is included for the sake of completeness, not convenience.
 
 To melt, something like acrylic cement (for PLA, not recommended plastic) can be used.
 Apply the cement liberally to the point of indentation, and then press onto the servo gear.
