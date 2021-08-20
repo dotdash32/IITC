@@ -13,12 +13,22 @@ M305 P1 R4700 T100000 B4092 C0 ; Exutruder 2
 M301 E0 P24.67 I2.19 D69.45 ; Extruder 1
 M301 E1 P26.54 I2.22 D79.31 ; Extruder 2
 
+; BMG extruder settings
+M92 T0 E407.6 ; Extruder 1
+M92 T1 E407.6 ; Extruder 1
+
+
+; Filament Load/Unload Settings
+M604 T0 L480 U480 ; Extruder 1
+M604 T1 L450 U450 ; Extruder 1
+
+
 ; Home offsets
 M206 X-34 Y-17 ; XY offset
 ; M851 X-34 Y-12 ; match probe, no longer needed in M2.0.8.1+
 
 ; Probe Z offset
-M851 Z0.250 ; 0.250
+M851 Z0.300 ; 0.250
 
 ; Rough T1 Offset
 M218 T1 X38 Y3 ; rough XY
