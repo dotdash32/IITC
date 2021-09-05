@@ -1,5 +1,7 @@
 ; Probing Hat
 ; A dedicated Probing hat, with kinematic mount pasive probe in T0 and microswitch in T1.
+; Code to run remotely
+; M32 P !/0TOOLS/PROBIN~1.GCO#
 
 
 ; ; Home Offset

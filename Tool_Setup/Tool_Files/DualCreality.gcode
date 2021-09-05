@@ -28,7 +28,7 @@ M206 X-34 Y-17 ; XY offset
 ; M851 X-34 Y-12 ; match probe, no longer needed in M2.0.8.1+
 
 ; Probe Z offset
-M851 Z0.300 ; 0.250
+M851 Z0.350 ; 0.30
 
 ; Rough T1 Offset
 M218 T1 X38 Y3 ; rough XY
