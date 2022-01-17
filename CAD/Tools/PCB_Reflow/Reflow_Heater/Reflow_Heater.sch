@@ -85,4 +85,15 @@ Wire Wire Line
 	2700 900  2700 1400
 Wire Wire Line
 	2700 1400 2300 1400
+$Comp
+L Mechanical:MountingHole MH5
+U 1 1 61FD9CBE
+P 1000 1900
+F 0 "MH5" H 1100 1946 50  0000 L CNN
+F 1 "ThermalFuse" H 1100 1855 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 1000 1900 50  0001 C CNN
+F 3 "~" H 1000 1900 50  0001 C CNN
+	1    1000 1900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
