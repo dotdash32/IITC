@@ -1,0 +1,7 @@
+Command:,M106 P1 S%.0f
+Time [s],Fan Power [PWM]
+0,0
+240,0
+240,100
+330,100
+330,0
