@@ -1,4 +1,4 @@
-608037202270731
+612964948205319
 Air_Coils_SML_NEOSID
 Neosid_Air-Coil_SML_1turn_HDM0131A
 
@@ -49995,6 +49995,27 @@ RV_Disc_D21.5_W8.4_P10
 0
 Varistors
 RV_Disc_D21.5_W11.4_P10
+
+
+0
+0
+0
+Warning-Graphics
+Warning-HotSurface
+
+
+0
+0
+0
+Warning-Graphics
+Warning-HotSurface-30x30mm
+
+
+0
+0
+0
+Warning-Graphics
+Warning-HotSurface-Pos
 
 
 0

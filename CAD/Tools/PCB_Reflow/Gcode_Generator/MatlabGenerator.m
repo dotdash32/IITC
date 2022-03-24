@@ -10,11 +10,11 @@ CSV_folder = 'ChipQuik-TS391SNL';
 
 % List of profile CSVs
 %   a cell array of file names ({'Fan0'};%
-profileCSVs = {'Hotend0','Fan0'};
+profileCSVs = {'Hotend0','Hotend1','Fan0'};
 
 %Wait Command
-%   Command to wait for next setting
-wait_cmd = 'G04 P%.2f\nM400\n\n'; 
+%   Command to wait for next setting, in milliseconds
+wait_cmd = 'M400\nG4 P%.1f\nM400\n\n'; 
 
 % Frequency of updates
 update_period = 1; %[seconds]
@@ -32,7 +32,7 @@ gcode_header = [';IITC PCB Reflow\n'...
 
 % Gcode Footer
 %   stuff to end file
-gcode_footer = ['M30\n'];
+gcode_footer = ['\n'];
 
 %% Read in Data
 
@@ -124,7 +124,7 @@ for indTime = 1:numel(allTimes)
         fprintf(fid, remaining_cmd, currTime/endSeconds,...
             (endSeconds-currTime)/60, currTime, endSeconds);
         timetoWait = allTimes(indTime+1) - allTimes(indTime);
-        fprintf(fid, wait_cmd, timetoWait);
+        fprintf(fid, wait_cmd, timetoWait*1000);
     end
     
 end
