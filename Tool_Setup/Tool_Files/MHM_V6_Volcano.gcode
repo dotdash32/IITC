@@ -24,7 +24,7 @@ M604 T0 L480 U480 ; Extruder 1
 M604 T1 L480 U480 ; Extruder 2
 
 ; Home offsets
-M206 X-30 Y-17 ; XY offset
+M206 X-27.5 Y-7 ; XY offset
 M851 X0 Y0 ; clear any probe offset
 
 ; Probe Z offset
@@ -34,7 +34,7 @@ M851 Z0.30 ; .15 gave .23 thick first layer
 M218 T1 X32 Y1
 
 ; Tool Z offset
-M218 T1 Z0.55
+M218 T1 Z0.28
 ; t0 - 0.625 probe offset
 ; t1 - 1.30 probe offset (too high) -> 1.2 ideal 
 
